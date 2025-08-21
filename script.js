@@ -3,7 +3,7 @@ var formulario = document.getElementById("formulario");
 formulario.addEventListener("submit",(e)=>{
     e.preventDefault();
 var pesos = document.getElementById("pesos");
- var dolar = 1298.50;
+ var dolar = 1320;
 var pesos = pesos.value;
 var total = Math.round(pesos / dolar)
 Swal.fire({
